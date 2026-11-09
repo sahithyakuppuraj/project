@@ -1,0 +1,13 @@
+{
+  "name": "finance-tracker-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm.cmd --prefix backend install && npm.cmd --prefix frontend install",
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "dev:frontend": "npm.cmd --prefix frontend run dev",
+    "build:backend": "npm.cmd --prefix backend run build",
+    "build:frontend": "npm.cmd --prefix frontend run build"
+  }
+}
+
